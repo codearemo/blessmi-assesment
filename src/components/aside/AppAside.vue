@@ -1,3 +1,7 @@
+<script setup>
+import CopyIcon from "@/components/icons/AppCopyIcon.vue";
+</script>
+
 <template>
   <div class="p-8">
     <div class="">
@@ -26,7 +30,11 @@
     >
       <p class="text-white font-medium">STERLING BANK</p>
       <div class="flex items-center gap-3">
-        <p class="text-white font-semibold text-lg my-1">0046748389</p>
+        <p
+          class="text-white flex items-center gap-4 font-semibold text-2xl my-1"
+        >
+          0046748389 <button class=""><CopyIcon class="" /></button>
+        </p>
       </div>
       <div class="text-white font-medium">Gbolahan Fawale</div>
     </div>
