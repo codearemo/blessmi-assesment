@@ -7,11 +7,7 @@ import FundRaiser from "@/components/main/AppFundRaiser.vue";
 <template>
   <div class="">
     <div class="">
-      <img
-        src="../../assets/images/shayo and chike.jpg"
-        alt=""
-        class="w-full"
-      />
+      <img src="@/assets/images/shayo-and-chike.jpg" alt="" class="w-full" />
     </div>
     <div
       class="flex justify-between py-2 px-4 sm:px-8 bg-highlight text-sm font-medium"
